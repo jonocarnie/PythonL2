@@ -11,7 +11,7 @@ class Circle():
     def circumfrence(self):
         return 2 * self.pi * self.radius
 
-mycircle = Circle(10)
+mycircle = Circle(5)
 
 print(mycircle.radius)
 print(mycircle.area())
